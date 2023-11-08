@@ -6,11 +6,11 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 
-class AnotherResponseController extends AbstractController
+class TemplateController extends AbstractController
 {
-    #[Route('/another-response', name: 'another-response')]
+    #[Route('/template', name: 'template')]
     public function anotherResponse(): Response
     {
-        return new Response("another-response");
+        return $this->render("my_template.html.twig", [ "hello" => "world"]);
     }
 }
