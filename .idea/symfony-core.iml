@@ -6,6 +6,7 @@
       <sourceFolder url="file://$MODULE_DIR$/app/tests" isTestSource="true" packagePrefix="App\Tests\" />
       <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/app/spec" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/app/vendor/composer" />
       <excludeFolder url="file://$MODULE_DIR$/app/vendor/doctrine/cache" />
       <excludeFolder url="file://$MODULE_DIR$/app/vendor/doctrine/collections" />
@@ -59,6 +60,9 @@
       <excludeFolder url="file://$MODULE_DIR$/app/vendor/symfony/twig-bridge" />
       <excludeFolder url="file://$MODULE_DIR$/app/vendor/symfony/twig-bundle" />
       <excludeFolder url="file://$MODULE_DIR$/app/vendor/twig/twig" />
+      <excludeFolder url="file://$MODULE_DIR$/app/vendor/nikic/php-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/app/vendor/symfony/maker-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/app/vendor/symfony/process" />
       <excludeFolder url="file://$MODULE_DIR$/app/vendor/symfony/web-profiler-bundle" />
     </content>
     <orderEntry type="inheritedJdk" />

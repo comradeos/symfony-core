@@ -17,6 +17,7 @@
         "symfony/runtime": "6.3.*",
         "symfony/yaml": "6.3.*",
         "symfony/twig-bundle": "*",
+        "symfony/maker-bundle": "*",
         "symfony/web-profiler-bundle": "*"
     },
     "config": {
