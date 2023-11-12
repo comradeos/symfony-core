@@ -51,4 +51,13 @@ yarn install
 ```
 yarn dev
 ```
-
+### Очистить кеш на проде
+```
+Изменить .env -> APP_ENV=prod
+```
+```
+docker exec -it php-container bash
+```
+```
+php bin/console cache:clear --env=prod
+```
